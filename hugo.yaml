@@ -1,0 +1,34 @@
+---
+baseURL: https://crackerjackmack.github.io
+languageCode: 'en-us'
+title: 'CrackerJackMack'
+theme: "papermod"
+enableGitInfo: true
+menus:
+  main:
+    - name: Home
+      pageRef: /
+      weight: 100
+    - name: About
+      pageRef: /about
+params:
+  disableScrollToTop: true
+  hideMeta: true
+  defaultTheme: auto
+  hideSummary: true
+  ShowShareButtons: false
+  disableThemeToggle: true
+  ShowBreadCrumbs: false
+  comments: false
+  hideFooter: true
+  homeInfoParams:
+    Title: "Hi, I'm Kevin 👋🏻"
+    Content: "I like computers"
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/klandreth"
+    - name: github
+      url: "https://github.com/crackerjackmack"
+    - name: keybase
+      url: https://keybase.io/crackerjackmack  
+
